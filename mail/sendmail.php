@@ -10,7 +10,7 @@
  */
 
 // Основные настройки:
-$recipients = ['vprilu@mail.ru']; // Получатели писем
+$recipients = ['dronchikwow@mail.ru']; // Получатели писем
 $subject = $_SERVER['SERVER_NAME'] . ' — Новая заявка'; // Тема письма
 
 $before_table = '<h2 style="color:#222">'. $subject .'</h2><p style="color:#222">Данные клиента:</p>'; // HTML-содержимое до таблицы
@@ -22,8 +22,8 @@ $smtp_host     = 'smtp.mail.ru'; // SMPT-адрес сервера
 $smtp_port     = 465; // TCP-порт
 $smtp_secure   = 'ssl'; // SMTP TLS/SSL
 $smtp_auth     = true; // SMPT-аутентификация
-$smtp_username = 'vprilu@mail.ru'; // Почтовый ящик, с которого будут отправляться письма
-$smtp_password = '12356744Qq'; // Пароль почтового ящика, с которого будут отправляться письма
+$smtp_username = 'dronchikwow@mail.ru'; // Почтовый ящик, с которого будут отправляться письма
+$smtp_password = 'dgLabqXJw6ybzgSyznd9'; // Пароль почтового ящика, с которого будут отправляться письма
 
 // Перенаправления на страницы (если JS отключен):
 $success_page = './success.html'; // При успешной отправке
